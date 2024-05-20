@@ -3,6 +3,7 @@ import random
 options = ("rock", "paper", "scissors")
 running = True
 
+
 while running:
 
     player = None
@@ -28,6 +29,4 @@ while running:
     if not input("Play again? (y/n): ").lower() == "y":
         running = False
 
-print("Thanks for playing! PLAY AGAIN SOON!")
-
-#Coding assignment By Aulwyn Griffith.
+print("Thanks for playing!")
